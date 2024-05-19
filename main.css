@@ -21,6 +21,7 @@ html{
 .Name {
 	color: #F0F8FF;
 	font-size: 23px;
+	text-shadow: 0 0 10px white;
 	text-align: center;
 	font-family: sans-serif;
 }
@@ -30,6 +31,7 @@ html{
 .Work {
 	color: #F0F8FF;
 	text-align: center;
+	text-shadow: 0 0 10px white;
 	font-size: 12px;
 	font-family: sans-serif;
 }
