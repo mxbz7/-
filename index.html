@@ -1,18 +1,78 @@
-<!doctype html>
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-<html>
-	<head>
-        <meta charset="utf-8">	
-		<title>Just testing bro </title>
-		
-	</head>
-	<body>
-		<canvas id="canvas">Your browser doesn't support "canvas", sorry come again.</canvas>
-		<!--[if IE]><script type="text/javascript" src="xcanvas.compiled.js"></script><![endif]-->
-		<!--a href="https://github.com/janemiceli/matrix" id="ribbon"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 50;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a -->
-		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css">
-    </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merged Website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Matrix Rain Effect Canvas -->
+    <canvas id="canvas">Your browser doesn't support "canvas", sorry come again.</canvas>
+    
+    <!-- Front Content -->
+    <div class="pic">
+        <img src="./main-imgs/mobz.jpg" title="mobz" alt="image">
+    </div>
 
- 
+    <div class="Name">
+        <h1>M O B Z  🦅</h1>
+    </div>
+
+    <div class="Work">
+        <h1>Security Researcher & Bug bounty hunter.</h1>
+    </div>
+
+    <!-- Contact -->
+    <div class="Contact">
+        <h1>Contact </h1>
+
+        <div class="ico">
+            <a href="https://github.com/3mobz/">
+                <i class="fa fa-github  social" title="Github"></i>
+            </a>
+        </div>
+
+        <div class="ico">
+            <a href="mailto:mohabibsarkar@gmail.com">   
+                <i class="fa fa-envelope social" title="E-Mail"></i>
+            </a>
+        </div>
+
+        <div class="ico">
+            <a href="https://www.instagram.com/3mobz">
+                <i class="fa fa-instagram social" title="Instagram"></i>
+            </a>
+        </div>
+
+        <div class="ico">
+            <a href="https://www.facebook.com/7mobz">
+                <i class="fa fa-facebook social" title="Facebook"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="https://www.instagram.com/test_mobz/">Are you watching closely?</a>        
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
