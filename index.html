@@ -13,10 +13,19 @@
             overflow: hidden;
         }
         canvas {
-        position: fixed;
-        top: –1;
-        left: 0;
-        z-index: –1; /* Change this to 0 or 1 */
+            position: fixed;
+            top: 0; /* Fixed typo: Changed "–1" to "0" */
+            left: 0;
+            z-index: -1; /* Change this to 0 or 1 */
+        }
+        .Contact {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .ico {
+            margin: 10px;
         }
     </style>
 </head>
@@ -43,7 +52,7 @@
 
         <div class="ico">
             <a href="https://github.com/3mobz/">
-                <i class="fa fa-github  social" title="Github"></i>
+                <i class="fa fa-github social" title="Github"></i>
             </a>
         </div>
 
