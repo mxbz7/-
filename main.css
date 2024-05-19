@@ -19,7 +19,7 @@ html{
 /** name **/
 
 .Name {
-	color: #6448c9;
+	color: #F0F8FF;
 	font-size: 23px;
 	text-align: center;
 	font-family: sans-serif;
@@ -28,7 +28,7 @@ html{
 /** work **/
 
 .Work {
-	color: #00FFFF;
+	color: #F0F8FF;
 	text-align: center;
 	font-size: 12px;
 	font-family: sans-serif;
