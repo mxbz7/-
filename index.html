@@ -4,29 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Are you watching closely?</title>
+    <title>Just testing bro</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--i am not a pro (my first website, created date : 30 jan 2023) -->
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             margin: 0;
             overflow: hidden;
+            font-family: Arial, sans-serif;
         }
         canvas {
             position: fixed;
-            top: 0; /* Fixed typo: Changed "–1" to "0" */
+            top: 0;
             left: 0;
-            z-index: -1; /* Change this to 0 or 1 */
+            z-index: -1;
         }
         .Contact {
-    position: absolute;
-    bottom: 10px; /* Adjusted value */
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Contact h1 {
+            margin-right: 10px;
+        }
         .ico {
-            margin: 10px;
+            margin: 0 5px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -34,20 +57,23 @@
     <!-- Matrix Rain Effect Canvas -->
     <canvas id="canvas">Your browser doesn't support "canvas", sorry come again.</canvas>
     
-    <!-- Front Content -->
+    <!--section 1-->
+
     <div class="pic">
         <img src="./main-imgs/mobz.jpg" title="mobz" alt="image">
     </div>
 
     <div class="Name">
-        <h1>M O B Z  🦅</h1>
+        <h1>M O B Z 🦅</h1>
     </div>
 
     <div class="Work">
         <h1>Security Researcher & Bug bounty hunter.</h1>
     </div>
 
-    <!-- Contact -->
+
+    <!-- Contact-->
+
     <div class="Contact">
         <h1>Contact </h1>
 
@@ -76,13 +102,11 @@
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="footer">
         <a href="https://www.instagram.com/test_mobz/">Are you watching closely?</a>        
     </footer>
-
-    <!-- Scripts -->
-    <script src="script.js"></script>
+        
     <script src="./main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
