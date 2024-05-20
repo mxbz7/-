@@ -3,6 +3,11 @@
     src: url(main-imgs/mohabib.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Astera';
+    src: url(main-imgs/astera.ttf) format('truetype');
+}
+
 html {
     scroll-behavior: smooth;
     background-color: black;
@@ -25,7 +30,6 @@ html {
     color: #F0F8FF;
     font-size: 23px;
     text-shadow: 0 0 10px #FF4500; /* Orange shadow */
-e;
     text-align: center;
     font-family: 'Mohabib', sans-serif;
 }
@@ -36,7 +40,7 @@ e;
     text-align: center;
     text-shadow: 0 0 10px white;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: 'Astera', sans-serif; /* Applying Astera font */
 }
 
 /* projects head */
@@ -115,4 +119,4 @@ e;
     font-family: sans-serif;
     padding-bottom: 10px;
     text-decoration: none;
-}
+    }
