@@ -24,7 +24,8 @@ html {
 .Name {
     color: #F0F8FF;
     font-size: 23px;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px #FF4500; /* Orange shadow */
+e;
     text-align: center;
     font-family: 'Mohabib', sans-serif;
 }
