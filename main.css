@@ -8,6 +8,11 @@
     src: url(main-imgs/astera.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Satan';
+    src: url(main-imgs/satan.ttf) format('truetype');
+}
+
 html {
     scroll-behavior: smooth;
     background-color: black;
@@ -116,7 +121,7 @@ html {
     text-align: center;
     color: #a1a1a1;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Satan', sans-serif;
     padding-bottom: 10px;
     text-decoration: none;
     }
