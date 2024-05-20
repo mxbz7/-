@@ -13,17 +13,15 @@ var drops = [];
 for (var x = 0; x < columns; x++)
     drops[x] = 1;
 
-// Define two colors
-var colors = ["#0F0", "#00F"];
+// Define the bright green color
+var brightGreen = "#0F0";
 
 function draw() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
     ctx.fillRect(0, 0, c.width, c.height);
     ctx.font = font_size + "px arial";
     for (var i = 0; i < drops.length; i++) {
-        // Randomly select a color from the array
-        var color = colors[Math.floor(Math.random() * colors.length)];
-        ctx.fillStyle = color;
+        ctx.fillStyle = brightGreen; // Use bright green color
         var text = matrix[Math.floor(Math.random() * matrix.length)];
         ctx.fillText(text, i * font_size, drops[i] * font_size);
         if (drops[i] * font_size > c.height && Math.random() > 0.975)
