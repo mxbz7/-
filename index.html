@@ -7,7 +7,19 @@
     <title>Are you watching closely?</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--i am not a pro (my first website, created date : 30 jan 2023) -->
+    <style>
+        /* CSS for Matrix rain effect */
+        body {
+            overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+            background-color: #000;
+        }
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Move canvas behind other elements */
+        }
+    </style>
 </head>
 <body>
     <!--section 1-->
@@ -23,7 +35,6 @@
     <div class="Work">
         <h1>Security Researcher & Bug bounty hunter.</h1>
     </div>
-
 
     <!-- contact-->
 
@@ -60,6 +71,6 @@
     </footer>
         
     <script src="./main.js"></script>
-    
+    <script src="./matrix.js"></script> <!-- JavaScript for Matrix rain effect -->
 </body>
 </html>
