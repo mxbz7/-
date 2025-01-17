@@ -15,7 +15,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: transparent;
 }
 
 /** pro pic **/
@@ -124,4 +124,27 @@ html {
     font-family: 'Satan', sans-serif;
     padding-bottom: 10px;
     text-decoration: none;
-    }
+}
+
+/** Matrix rain effect settings **/
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#info {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    padding: 10px 20px 20px;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+
+#stats {
+    z-index: 100;
+}
