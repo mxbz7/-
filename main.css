@@ -131,8 +131,19 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: transparent; /* Remove solid background */
-    backdrop-filter: blur(8px); /* Add blur effect */
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    position: relative;
+    height: 100vh; /* Ensure it takes full height */
+}
+
+#matrixRain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind the content */
 }
 
 #info {
