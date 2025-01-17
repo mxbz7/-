@@ -131,7 +131,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: transparent;
+    background-color: transparent; /* Remove solid background */
+    backdrop-filter: blur(8px); /* Add blur effect */
 }
 
 #info {
