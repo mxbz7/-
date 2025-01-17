@@ -16,8 +16,11 @@ html, body {
   user-select: none; }
 
 body {
-  background: black; }
-
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
 #stats {
   z-index: 100; }
 
